@@ -1,0 +1,17 @@
+<!-- 참고 링크 : https://www.python2.net/questions-449697.htm -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example2_javascript로 html 태그 내 변수 선언하기</title>
+  </head>
+  <body>
+    <iframe id="videourl" width="560" height="315" src=""
+     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <script type="text/javascript">
+       var video_link = document.getElementById('videourl'); 
+       video_link.src = "https://www.youtube.com/embed/ZEnJ4UpEpyQ"
+     </script>
+  </body>
+</html>
